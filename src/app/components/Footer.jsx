@@ -239,13 +239,13 @@ const Footer = () => {
   {/* Copyright & Legal Links */}
   <div className="mt-8 text-center border-t border-gray-700 pt-6">
     <p className="text-xs text-gray-400">
-      © Copyright 2008-2025 PolicySansar.com. All Rights Reserved.
+      © Copyright 2024-2025 PolicySansar.com. All Rights Reserved.
     </p>
-    <div className="mt-3 flex justify-center space-x-4 text-xs">
+    {/* <div className="mt-3 flex justify-center space-x-4 text-xs">
       <a href="/disclaimer" className="text-gray-400 hover:text-blue-400">Disclaimer</a>
       <a href="/terms" className="text-gray-400 hover:text-blue-400">Terms of Use</a>
       <a href="/sitemap" className="text-gray-400 hover:text-blue-400">Sitemap</a>
-    </div>
+    </div> */}
   </div>
 </div>
 
