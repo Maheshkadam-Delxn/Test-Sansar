@@ -203,7 +203,7 @@ const Footer = () => {
       <p>
         <span className="font-semibold">IRDAI License:</span> IRDA/1019<br />
         <span className="font-semibold">Category:</span> Direct Broker - Life & General<br />
-        <span className="font-semibold">Valid Till:</span> 09/06/2027<br />
+        {/* <span className="font-semibold">Valid Till:</span> 09/06/2027<br /> */}
         Registered under the Udyam initiative of the Government of India.
       </p>
       <div className="mt-4">
