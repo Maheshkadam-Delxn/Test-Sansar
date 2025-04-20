@@ -91,7 +91,7 @@ const Homee = () => {
     <Image src={TrustIcon} width={1920} height={1080} className="w-12 h-12 phone:w-6 phone:h-6 tablet:w-8 tablet:h-8 desktop2xl:w-24 desktop2xl:h-24"/>
       <h1 className="text-sm font-bold phone:text-xs tablet:text-xs desktop2xl:text-2xl">Trusted Insurer</h1>
     </div>
-    <button className="bg-[#5383FE] p-3 text-white font-bold rounded-lg  phone:text-sm phone:p-2 tablet:p-2 tablet:text-xs desktop2xl:text-2xl ">Get Quotes Now</button>
+    {/* <button className="bg-[#5383FE] p-3 text-white font-bold rounded-lg  phone:text-sm phone:p-2 tablet:p-2 tablet:text-xs desktop2xl:text-2xl ">Get Quotes Now</button> */}
   </div>
  
 </div>
