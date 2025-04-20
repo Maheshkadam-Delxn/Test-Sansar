@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaXTwitter, FaLinkedinIn, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedinIn, FaFacebook, FaInstagram ,FaYoutube} from "react-icons/fa6";
 import { IoCallSharp, IoMailOpenSharp, IoLocationSharp } from "react-icons/io5";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useInView } from "react-intersection-observer"; // Importing useInView
@@ -56,6 +56,9 @@ const Footer = () => {
             </a>
             <a href="https://www.instagram.com/policysansar/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-x-2 border-y-2 border-white hover:border-blue-500 hover:bg-blue-500 hover:-translate-y-1 transition-all ease-in-out duration-300 cursor-pointer xxs:text-sm xs:text-sm sm:text-sm xxs:p-2 xs:p-2 sm:p-2">
               <FaInstagram />
+            </a>
+            <a href="http://www.youtube.com/@PolicySansar" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-x-2 border-y-2 border-white hover:border-blue-500 hover:bg-blue-500 hover:-translate-y-1 transition-all ease-in-out duration-300 cursor-pointer xxs:text-sm xs:text-sm sm:text-sm xxs:p-2 xs:p-2 sm:p-2">
+              <FaYoutube />
             </a>
           </div>
          </div>
